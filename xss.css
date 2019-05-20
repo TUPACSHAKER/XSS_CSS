@@ -1,4 +1,4 @@
-body {
-  background-image: url('javascript:alert("XSS");')
+td {
+  onclick: url('javascript:alert("XSS");')
 }
 
