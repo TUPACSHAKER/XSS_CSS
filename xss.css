@@ -1,4 +1,4 @@
 td {
-  onclick: url('javascript:alert("XSS");')
+  src: url('javascript:alert("XSS");')
 }
 
